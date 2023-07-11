@@ -73,7 +73,7 @@ body {
 }
 
 .address:hover,
-.adress:active {
+.adress:focus {
     color: var(--pressed-state);
 }
 
@@ -151,7 +151,7 @@ body {
     color: var(--text);
     text-align: center;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.02em;
 }
@@ -160,13 +160,17 @@ body {
     color: var(--dark);
     text-align: center;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.02em;
 }
 
+.address {
+    font-style: normal;
+}
+
 .body-medium-header:hover, 
-.body-medium-header:active {
+.body-medium-header:focus {
     color:var(--pressed-state);
 }
 
