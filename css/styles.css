@@ -186,6 +186,7 @@ body {
 }
 
 .button-text-main {
+    font-family: 'Roboto', sans-serif;
     background-color: var(--primary_brand);
     color: var(--white-background);
     font-size: 16px;
@@ -196,6 +197,7 @@ body {
 }
 
 .button-text-main:hover {
+    font-family: 'Roboto', sans-serif;
     background-color: var(--pressed-state);
     font-size: 16px;
     font-weight: 500;
@@ -205,6 +207,7 @@ body {
 }
 
 .button-text:hover {
+    font-family: 'Roboto', sans-serif;
     background-color: var(--pressed-state);
     color: var(--white-background);
     font-size: 16px;
