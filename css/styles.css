@@ -92,21 +92,10 @@ body {
 }
 
 /* Header 1 */
-.title-header-1 {
+.header-1 {
     color: var(--white-background);
     text-align: center;
     font-size: 56px;
-    font-weight: 700;
-    line-height: 60px;
-    letter-spacing: 1.07em;
-}
-
-.header-studio {
-    color: var(--white-background);
-    text-align: center;
-    font-family: Roboto;
-    font-size: 56px;
-    font-style: normal;
     font-weight: 700;
     line-height: 60px;
     letter-spacing: 0.07em;
@@ -181,39 +170,19 @@ body {
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.04em;
     cursor: pointer;
 }
 
-.button-text-main {
-    font-family: 'Roboto', sans-serif;
-    background-color: var(--primary_brand);
-    color: var(--white-background);
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    cursor: pointer;
-}
-
-.button-text-main:hover {
+.button-text:hover,
+.button-text:focus {
     font-family: 'Roboto', sans-serif;
     background-color: var(--pressed-state);
+    color: var(--light);
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
-    letter-spacing: 0.02em;
-    cursor: pointer;
-}
-
-.button-text:hover {
-    font-family: 'Roboto', sans-serif;
-    background-color: var(--pressed-state);
-    color: var(--white-background);
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.04em;
     cursor: pointer;
 }
 
