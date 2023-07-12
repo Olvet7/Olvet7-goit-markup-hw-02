@@ -226,11 +226,11 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0.02px;
+    letter-spacing: 0.02em;
 }
 
 .ftr-logo-studio {
-    color: var(--cloud, #F4F4FD);
+    color: var(--light);
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 800;
