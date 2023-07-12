@@ -92,7 +92,7 @@ body {
 }
 
 /* Header 1 */
-.header-1 {
+.header-one {
     color: var(--white-background);
     text-align: center;
     font-size: 56px;
@@ -102,7 +102,7 @@ body {
 }
 
 /* Header 2 */
-.header-2 {
+.header-two {
     color: var(--dark);
     text-align: center;
     font-size: 36px;
@@ -113,7 +113,7 @@ body {
 }
 
 /* Header 3 */
-.header-3 {
+.header-tree {
     color: var(--dark);
     font-size: 20px;
     font-weight: 500;
