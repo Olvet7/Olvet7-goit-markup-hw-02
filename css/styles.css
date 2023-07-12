@@ -107,7 +107,7 @@ body {
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 1.11em;
     letter-spacing: 0.045em;
     text-transform: capitalize;
 }
